@@ -1,0 +1,17 @@
+{
+  "name": "ti-company-simulator",
+  "version": "0.1.0",
+  "description": "MVP multijogador cooperativo (14 jogadores) — escritório de TI em estilo Overcooked",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "socket.io": "^4.8.4"
+  }
+}
